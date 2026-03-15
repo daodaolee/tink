@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1481EE272F6680BA00BF3122 /* TinkWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1481EE072F6680BA00BF3122 /* TinkWatch Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1481EDE72F66804A00BF3122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1481EDD12F66804900BF3122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1481EDD82F66804900BF3122;
+			remoteInfo = Tink;
+		};
+		1481EDF12F66804A00BF3122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1481EDD12F66804900BF3122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1481EDD82F66804900BF3122;
+			remoteInfo = Tink;
+		};
+		1481EE142F6680BA00BF3122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1481EDD12F66804900BF3122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1481EE062F6680BA00BF3122;
+			remoteInfo = "TinkWatch Watch App";
+		};
+		1481EE1E2F6680BA00BF3122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1481EDD12F66804900BF3122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1481EE062F6680BA00BF3122;
+			remoteInfo = "TinkWatch Watch App";
+		};
+		1481EE252F6680BA00BF3122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1481EDD12F66804900BF3122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1481EE062F6680BA00BF3122;
+			remoteInfo = "TinkWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1481EE2B2F6680BA00BF3122 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1481EE272F6680BA00BF3122 /* TinkWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1481EDD92F66804900BF3122 /* Tink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1481EDE62F66804A00BF3122 /* TinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1481EDF02F66804A00BF3122 /* TinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1481EE072F6680BA00BF3122 /* TinkWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TinkWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1481EE132F6680BA00BF3122 /* TinkWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TinkWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1481EE1D2F6680BA00BF3122 /* TinkWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TinkWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1481EE332F6681DE00BF3122 /* Exceptions for "Tink" folder in "Tink" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1481EDD82F66804900BF3122 /* Tink */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1481EDDB2F66804900BF3122 /* Tink */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1481EE332F6681DE00BF3122 /* Exceptions for "Tink" folder in "Tink" target */,
+			);
+			path = Tink;
+			sourceTree = "<group>";
+		};
+		1481EDE92F66804A00BF3122 /* TinkTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TinkTests;
+			sourceTree = "<group>";
+		};
+		1481EDF32F66804A00BF3122 /* TinkUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TinkUITests;
+			sourceTree = "<group>";
+		};
+		1481EE082F6680BA00BF3122 /* TinkWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TinkWatch Watch App";
+			sourceTree = "<group>";
+		};
+		1481EE162F6680BA00BF3122 /* TinkWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TinkWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		1481EE202F6680BA00BF3122 /* TinkWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TinkWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1481EDD62F66804900BF3122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EDE32F66804A00BF3122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EDED2F66804A00BF3122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EE042F6680BA00BF3122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EE102F6680BA00BF3122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EE1A2F6680BA00BF3122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1481EDD02F66804900BF3122 = {
+			isa = PBXGroup;
+			children = (
+				1481EDDB2F66804900BF3122 /* Tink */,
+				1481EDE92F66804A00BF3122 /* TinkTests */,
+				1481EDF32F66804A00BF3122 /* TinkUITests */,
+				1481EE082F6680BA00BF3122 /* TinkWatch Watch App */,
+				1481EE162F6680BA00BF3122 /* TinkWatch Watch AppTests */,
+				1481EE202F6680BA00BF3122 /* TinkWatch Watch AppUITests */,
+				1481EDDA2F66804900BF3122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1481EDDA2F66804900BF3122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1481EDD92F66804900BF3122 /* Tink.app */,
+				1481EDE62F66804A00BF3122 /* TinkTests.xctest */,
+				1481EDF02F66804A00BF3122 /* TinkUITests.xctest */,
+				1481EE072F6680BA00BF3122 /* TinkWatch Watch App.app */,
+				1481EE132F6680BA00BF3122 /* TinkWatch Watch AppTests.xctest */,
+				1481EE1D2F6680BA00BF3122 /* TinkWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1481EDD82F66804900BF3122 /* Tink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1481EDFA2F66804A00BF3122 /* Build configuration list for PBXNativeTarget "Tink" */;
+			buildPhases = (
+				1481EDD52F66804900BF3122 /* Sources */,
+				1481EDD62F66804900BF3122 /* Frameworks */,
+				1481EDD72F66804900BF3122 /* Resources */,
+				1481EE2B2F6680BA00BF3122 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1481EE262F6680BA00BF3122 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1481EDDB2F66804900BF3122 /* Tink */,
+			);
+			name = Tink;
+			packageProductDependencies = (
+			);
+			productName = Tink;
+			productReference = 1481EDD92F66804900BF3122 /* Tink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1481EDE52F66804A00BF3122 /* TinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1481EDFD2F66804A00BF3122 /* Build configuration list for PBXNativeTarget "TinkTests" */;
+			buildPhases = (
+				1481EDE22F66804A00BF3122 /* Sources */,
+				1481EDE32F66804A00BF3122 /* Frameworks */,
+				1481EDE42F66804A00BF3122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1481EDE82F66804A00BF3122 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1481EDE92F66804A00BF3122 /* TinkTests */,
+			);
+			name = TinkTests;
+			packageProductDependencies = (
+			);
+			productName = TinkTests;
+			productReference = 1481EDE62F66804A00BF3122 /* TinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1481EDEF2F66804A00BF3122 /* TinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1481EE002F66804A00BF3122 /* Build configuration list for PBXNativeTarget "TinkUITests" */;
+			buildPhases = (
+				1481EDEC2F66804A00BF3122 /* Sources */,
+				1481EDED2F66804A00BF3122 /* Frameworks */,
+				1481EDEE2F66804A00BF3122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1481EDF22F66804A00BF3122 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1481EDF32F66804A00BF3122 /* TinkUITests */,
+			);
+			name = TinkUITests;
+			packageProductDependencies = (
+			);
+			productName = TinkUITests;
+			productReference = 1481EDF02F66804A00BF3122 /* TinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1481EE062F6680BA00BF3122 /* TinkWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1481EE282F6680BA00BF3122 /* Build configuration list for PBXNativeTarget "TinkWatch Watch App" */;
+			buildPhases = (
+				1481EE032F6680BA00BF3122 /* Sources */,
+				1481EE042F6680BA00BF3122 /* Frameworks */,
+				1481EE052F6680BA00BF3122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1481EE082F6680BA00BF3122 /* TinkWatch Watch App */,
+			);
+			name = "TinkWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "TinkWatch Watch App";
+			productReference = 1481EE072F6680BA00BF3122 /* TinkWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1481EE122F6680BA00BF3122 /* TinkWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1481EE2C2F6680BA00BF3122 /* Build configuration list for PBXNativeTarget "TinkWatch Watch AppTests" */;
+			buildPhases = (
+				1481EE0F2F6680BA00BF3122 /* Sources */,
+				1481EE102F6680BA00BF3122 /* Frameworks */,
+				1481EE112F6680BA00BF3122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1481EE152F6680BA00BF3122 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1481EE162F6680BA00BF3122 /* TinkWatch Watch AppTests */,
+			);
+			name = "TinkWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "TinkWatch Watch AppTests";
+			productReference = 1481EE132F6680BA00BF3122 /* TinkWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1481EE1C2F6680BA00BF3122 /* TinkWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1481EE2F2F6680BA00BF3122 /* Build configuration list for PBXNativeTarget "TinkWatch Watch AppUITests" */;
+			buildPhases = (
+				1481EE192F6680BA00BF3122 /* Sources */,
+				1481EE1A2F6680BA00BF3122 /* Frameworks */,
+				1481EE1B2F6680BA00BF3122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1481EE1F2F6680BA00BF3122 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1481EE202F6680BA00BF3122 /* TinkWatch Watch AppUITests */,
+			);
+			name = "TinkWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "TinkWatch Watch AppUITests";
+			productReference = 1481EE1D2F6680BA00BF3122 /* TinkWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1481EDD12F66804900BF3122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					1481EDD82F66804900BF3122 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					1481EDE52F66804A00BF3122 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 1481EDD82F66804900BF3122;
+					};
+					1481EDEF2F66804A00BF3122 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 1481EDD82F66804900BF3122;
+					};
+					1481EE062F6680BA00BF3122 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					1481EE122F6680BA00BF3122 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 1481EE062F6680BA00BF3122;
+					};
+					1481EE1C2F6680BA00BF3122 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 1481EE062F6680BA00BF3122;
+					};
+				};
+			};
+			buildConfigurationList = 1481EDD42F66804900BF3122 /* Build configuration list for PBXProject "Tink" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1481EDD02F66804900BF3122;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1481EDDA2F66804900BF3122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1481EDD82F66804900BF3122 /* Tink */,
+				1481EDE52F66804A00BF3122 /* TinkTests */,
+				1481EDEF2F66804A00BF3122 /* TinkUITests */,
+				1481EE062F6680BA00BF3122 /* TinkWatch Watch App */,
+				1481EE122F6680BA00BF3122 /* TinkWatch Watch AppTests */,
+				1481EE1C2F6680BA00BF3122 /* TinkWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1481EDD72F66804900BF3122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EDE42F66804A00BF3122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EDEE2F66804A00BF3122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EE052F6680BA00BF3122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EE112F6680BA00BF3122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EE1B2F6680BA00BF3122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1481EDD52F66804900BF3122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EDE22F66804A00BF3122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EDEC2F66804A00BF3122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EE032F6680BA00BF3122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EE0F2F6680BA00BF3122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1481EE192F6680BA00BF3122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1481EDE82F66804A00BF3122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1481EDD82F66804900BF3122 /* Tink */;
+			targetProxy = 1481EDE72F66804A00BF3122 /* PBXContainerItemProxy */;
+		};
+		1481EDF22F66804A00BF3122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1481EDD82F66804900BF3122 /* Tink */;
+			targetProxy = 1481EDF12F66804A00BF3122 /* PBXContainerItemProxy */;
+		};
+		1481EE152F6680BA00BF3122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1481EE062F6680BA00BF3122 /* TinkWatch Watch App */;
+			targetProxy = 1481EE142F6680BA00BF3122 /* PBXContainerItemProxy */;
+		};
+		1481EE1F2F6680BA00BF3122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1481EE062F6680BA00BF3122 /* TinkWatch Watch App */;
+			targetProxy = 1481EE1E2F6680BA00BF3122 /* PBXContainerItemProxy */;
+		};
+		1481EE262F6680BA00BF3122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 1481EE062F6680BA00BF3122 /* TinkWatch Watch App */;
+			targetProxy = 1481EE252F6680BA00BF3122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1481EDF82F66804A00BF3122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N6C532VY5B;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1481EDF92F66804A00BF3122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N6C532VY5B;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1481EDFB2F66804A00BF3122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tink/Tink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMZPZ664DM;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tink/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daodaolee.tink;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.daodaolee.tink.ios;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.daodaolee.tink.macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		1481EDFC2F66804A00BF3122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tink/Tink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMZPZ664DM;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tink/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daodaolee.tink;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.daodaolee.tink.ios;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.daodaolee.tink.macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		1481EDFE2F66804A00BF3122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6C532VY5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daodaolee.TinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tink";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		1481EDFF2F66804A00BF3122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6C532VY5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daodaolee.TinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tink";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		1481EE012F66804A00BF3122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6C532VY5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daodaolee.TinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Tink;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		1481EE022F66804A00BF3122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6C532VY5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daodaolee.TinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Tink;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		1481EE292F6680BA00BF3122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TinkWatch Watch App/TinkWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMZPZ664DM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TinkWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TinkWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.daodaolee.Tink;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daodaolee.tink.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		1481EE2A2F6680BA00BF3122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TinkWatch Watch App/TinkWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMZPZ664DM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TinkWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TinkWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.daodaolee.Tink;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daodaolee.tink.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		1481EE2D2F6680BA00BF3122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6C532VY5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daodaolee.TinkWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinkWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TinkWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		1481EE2E2F6680BA00BF3122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6C532VY5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daodaolee.TinkWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinkWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TinkWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		1481EE302F6680BA00BF3122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6C532VY5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daodaolee.TinkWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TinkWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		1481EE312F6680BA00BF3122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6C532VY5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daodaolee.TinkWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TinkWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1481EDD42F66804900BF3122 /* Build configuration list for PBXProject "Tink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1481EDF82F66804A00BF3122 /* Debug */,
+				1481EDF92F66804A00BF3122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1481EDFA2F66804A00BF3122 /* Build configuration list for PBXNativeTarget "Tink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1481EDFB2F66804A00BF3122 /* Debug */,
+				1481EDFC2F66804A00BF3122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1481EDFD2F66804A00BF3122 /* Build configuration list for PBXNativeTarget "TinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1481EDFE2F66804A00BF3122 /* Debug */,
+				1481EDFF2F66804A00BF3122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1481EE002F66804A00BF3122 /* Build configuration list for PBXNativeTarget "TinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1481EE012F66804A00BF3122 /* Debug */,
+				1481EE022F66804A00BF3122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1481EE282F6680BA00BF3122 /* Build configuration list for PBXNativeTarget "TinkWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1481EE292F6680BA00BF3122 /* Debug */,
+				1481EE2A2F6680BA00BF3122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1481EE2C2F6680BA00BF3122 /* Build configuration list for PBXNativeTarget "TinkWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1481EE2D2F6680BA00BF3122 /* Debug */,
+				1481EE2E2F6680BA00BF3122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1481EE2F2F6680BA00BF3122 /* Build configuration list for PBXNativeTarget "TinkWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1481EE302F6680BA00BF3122 /* Debug */,
+				1481EE312F6680BA00BF3122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1481EDD12F66804900BF3122 /* Project object */;
+}
